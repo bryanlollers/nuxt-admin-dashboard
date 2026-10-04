@@ -1,0 +1,48 @@
+import type { User } from '../types/user'
+
+export const users: User[] = [
+  {
+    id: 1,
+    name: 'Olivia Rhye',
+    role: 'Product Designer',
+    initials: 'OR',
+    color: 'lavender',
+    email: 'olivia@sample.co',
+    department: 'Design',
+    status: 'Active',
+    phone: '+1 (415) 555-0101',
+  },
+  {
+    id: 2,
+    name: 'Phoenix Baker',
+    role: 'Engineering Lead',
+    initials: 'PB',
+    color: 'peach',
+    email: 'phoenix@sample.co',
+    department: 'Engineering',
+    status: 'Active',
+    phone: '+1 (415) 555-0102',
+  },
+  {
+    id: 3,
+    name: 'Lana Steiner',
+    role: 'Project Manager',
+    initials: 'LS',
+    color: 'mint',
+    email: 'lana@sample.co',
+    department: 'Operations',
+    status: 'Away',
+    phone: '+1 (415) 555-0103',
+  },
+  {
+    id: 4,
+    name: 'Demi Wilkinson',
+    role: 'Marketing Lead',
+    initials: 'DW',
+    color: 'blue',
+    email: 'demi@sample.co',
+    department: 'Marketing',
+    status: 'Active',
+    phone: '+1 (415) 555-0104',
+  },
+]

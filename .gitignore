@@ -1,0 +1,25 @@
+# Dependencies and generated output
+node_modules/
+.nuxt/
+.output/
+dist/
+.data/
+.cache/
+
+# Local environment files
+.env
+.env.*
+!.env.example
+
+# Logs
+*.log
+
+# Local editor and operating system files
+.idea/
+.DS_Store
+Thumbs.db
+
+# Generated verification artifacts
+coverage/
+test-results/
+playwright-report/
