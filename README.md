@@ -1,8 +1,10 @@
-# Sample Business Operations Dashboard
+# Business Operations Dashboard
 
 ## Project overview
 
-Sample is a fictional business operations dashboard for managing customers, projects, tasks, and team members. It demonstrates a modular frontend with local mock data, client-side navigation, forms, reporting, and shared application state.
+This is a frontend portfolio project built to showcase skills with Nuxt 3, Vue 3, TypeScript, Tailwind CSS, and Pinia. It presents a fictional business operations dashboard for managing customers, projects, tasks, and team members.
+
+The project demonstrates component architecture, reusable UI, state management, form handling and validation, filtering, sorting, pagination, charts, responsive layouts, and interactive workflows using local mock data.
 
 Nuxt uses its default server rendering with client-side navigation after hydration. No backend API, database, or authentication service is required.
 
@@ -124,16 +126,6 @@ Tailwind breakpoints adapt the interface for desktop, laptop, tablet, and mobile
 - Modals stay within the viewport and scroll for longer content.
 - Charts use flexible containers.
 - The Kanban board uses horizontally scrollable columns on smaller screens; task menus provide an alternative to dragging.
-
-## Accessibility
-
-The interface includes semantic landmarks and headings, accessible control labels, a skip link, and visible keyboard focus indicators.
-
-Dialogs use native modal behavior with explicit Tab wrapping, Escape dismissal, initial focus, and focus restoration. Dropdowns support keyboard navigation, and the mobile drawer contains focus while open.
-
-Validation messages are associated with their fields, invalid submissions focus the affected field, and live regions announce loading states, notifications, and task moves. Tables provide captions and scoped column headings. Decorative heading content is hidden from screen readers.
-
-Buttons use native disabled states and default to `type="button"`; form submission buttons explicitly use `type="submit"`. Styling includes dark variants, improved text contrast, and reduced-motion handling. These features do not constitute a formal accessibility certification.
 
 ## Installation
 
