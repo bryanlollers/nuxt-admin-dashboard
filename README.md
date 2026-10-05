@@ -2,7 +2,7 @@
 
 ## Demo preview
 
-Explore the [live demo](https://nuxt-admin-dashboard-iota.vercel.app).
+Explore the [live demo](https://nuxt-admin-dashboard-bryanlollers.vercel.app).
 
 ## Project overview
 
