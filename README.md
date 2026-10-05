@@ -1,5 +1,9 @@
 # Business Operations Dashboard
 
+## Demo preview
+
+Explore the [live demo](https://nuxt-admin-dashboard-iota.vercel.app).
+
 ## Project overview
 
 This is a frontend portfolio project built to showcase skills with Nuxt 3, Vue 3, TypeScript, Tailwind CSS, and Pinia. It presents a fictional business operations dashboard for managing customers, projects, tasks, and team members.
